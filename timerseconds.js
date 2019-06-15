@@ -11,5 +11,5 @@ setInterval(function()
 var now = new Date().getTime();
 var distance = countDownDate - now;
 document.getElementById("timerseconds").innerHTML = distance + "s ";
-} ,10000;
+} ,10000);
 
