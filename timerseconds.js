@@ -11,5 +11,5 @@ setInterval(function()
 var now = new Date().getTime();
 var seconds = Math.floor((countDownDate - now)/1000);
 document.getElementById("timerseconds").innerHTML = seconds + "s ";
-} ,1000);
+} ,1000000);
 
