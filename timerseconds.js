@@ -9,7 +9,7 @@ var countDownDate = new Date("Apr 16, 2020 00:00:00").getTime();
 setInterval(function() 
 {
 var now = new Date().getTime();
-var distance = countDownDate - now;
-document.getElementById("timerseconds").innerHTML = distance + "s ";
-} ,10000);
+var seconds = (countDownDate - now)/1000;
+document.getElementById("timerseconds").innerHTML = seconds + "s ";
+} ,1000);
 
