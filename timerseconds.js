@@ -10,7 +10,6 @@ setInterval(function()
 {
 var now = new Date().getTime();
 var distance = countDownDate - now;
-var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-document.getElementById("timerseconds").innerHTML = seconds + "s ";
-} ,100000);
+document.getElementById("timerseconds").innerHTML = distance + "s ";
+} ,10000;
 
